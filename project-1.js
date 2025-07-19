@@ -45,15 +45,15 @@ form.appendChild(document.createElement("br"));
 
 const eID = createInput("Employee ID:", "employeeID");
 const design = createInput("Designation:", "designation");
-const phno = createInput("Phone Number:", "phoneno");
+const pno = createInput("Phone Number:", "phoneno");
 
-const submitbtn = document.createElement("button");
-submitbtn.type = "submit";
-submitbtn.textContent = "Submit"
+const submitBtn = document.createElement("button");
+submitBtn.type = "submit";
+submitBtn.textContent = "Submit"
 form.addEventListener("Submit", function(e){
     e.preventDefault();
     alert("Form submitted");
 });
-form.appendChild(submitbtn);
+form.appendChild(submitBtn);
 
 document.body.appendChild(form);
