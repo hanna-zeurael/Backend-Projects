@@ -9,6 +9,6 @@ export function isValidEmail(email) {
 }
 
 export function isValidPhone(phone) {
-  return /^\+\d{10,15}$/.test(phone); // Accepts all E.164 formatted numbers
+  return /^\+\d{10,15}$/.test(phone);
 }
 
